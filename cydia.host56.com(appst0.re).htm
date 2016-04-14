@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0065)http://www.cydia.host56.com/ -->
+<HTML><HEAD><META content="IE=5.0000" http-equiv="X-UA-Compatible">
+<TITLE>Home · Cydia</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type><LINK 
+rel=stylesheet type=text/css href="cydia.host56.com(appst0.re)_files/style.css">
+<META name=viewport 
+content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<META name=format-detection content=telephone=no>
+<SCRIPT type=text/javascript> 
+ 
+var badge = function (name) {
+    var node = document.getElementById('badge-' + name);
+    if (node == null)
+        return;
+    node.parentNode.removeChild(node);
+    return true;
+};
+ 
+</SCRIPT>
+
+<STYLE type=text/css>badge {
+	BORDER-LEFT-WIDTH: 10px; FONT-SIZE: 12px; BORDER-RIGHT-WIDTH: 10px; BORDER-BOTTOM-WIDTH: 0px; FONT-WEIGHT: bold; COLOR: white; TEXT-ALIGN: center; PADDING-TOP: 2px; MIN-HEIGHT: 23px; DISPLAY: inline-block; BORDER-TOP-WIDTH: 0px
+}
+FIELDSET > A > DIV {
+	POSITION: relative
+}
+badge {
+	RIGHT: 0px; POSITION: absolute; TOP: -7px
+}
+</STYLE>
+
+<SCRIPT type=text/javascript 
+src="http://cache.saurik.com/menes/menes.js"></SCRIPT>
+
+<SCRIPT type=text/javascript> 
+    var count = function(source, target) {
+        $.xhr('http://cydia.saurik.com/api/count?source=' + encodeURIComponent(source) + '&target=' + encodeURIComponent(target), 'POST', {}, null, {});
+        return true;
+    };
+ 
+    
+ 
+    if (typeof cydia != "undefined") {
+        
+ 
+        if (typeof cydia.localize != "undefined") {
+            document.addEventListener("DOMContentLoaded", function () {
+    var results = document.evaluate("//*[@localize]", document, null, XPathResult.ANY_TYPE, null);
+    var result, nodes = [];
+    while (result = results.iterateNext())
+        nodes.push(result);
+    for (var index in nodes) {
+        var node = nodes[index];
+        var key = node.getAttribute('localize');
+        var value = cydia.localize(key, node.innerHTML);
+        if (node.nodeName == 'TITLE')
+            document.title = value;
+        else
+            node.innerHTML = value;
+    }
+});
+ 
+ 
+            var format = function (id, format, arguments) {
+                var value = cydia.format(format, arguments);
+                var element = document.getElementById(id);
+                if (element != null)
+                    element.innerHTML = value;
+            };
+ 
+            document.title = cydia.localize("HOME", "Home") + " \u00b7 Cydia";
+ 
+            document.addEventListener("DOMContentLoaded", function () {
+                var welcome = document.getElementById("welcome");
+                welcome.innerHTML = cydia.localize("WELCOME_TO_CYDIA", "Welcome to Cydia\u2122").replace("\u2122", "<sup>&#0153;</sup>");
+                //format('twitter-saurik', cydia.localize("FOLLOW_ON_TWITTER", "Follow %@ on Twitter"), ["saurik"]);
+                //format('products', cydia.localize("COLON_DELIMITED", "%@: %@"), [cydia.localize("CYDIA_STORE", "Cydia Store"), cydia.localize("PRODUCTS", "Products")]);
+                //format('credits', cydia.localize("SLASH_DELIMITED", "%@ / %@"), [cydia.localize("CREDITS", "Credits"), cydia.localize("THANK_YOU", "Thank You")]);
+                //format('upgrading', cydia.localize("UPGRADING_TO_READ_THIS", "Upgrading to %@? Read This"), ["4.0.2"]);
+                //format('by', cydia.localize("BY", "by %@"), ['<a class="panel" href="http://www.saurik.com/">Jay Freeman (saurik)</a>']);
+            });
+        }
+    }
+</SCRIPT>
+
+<STYLE type=text/css>LABEL.advertisement {
+	FONT-SIZE: smaller; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px -3px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+panel > FIELDSET > A.half {
+	MARGIN-RIGHT: -4px
+}
+FIELDSET > A.half > IMG.icon + DIV {
+	WIDTH: 79px
+}
+panel > FIELDSET > A.left {
+	BORDER-BOTTOM: #999999 1px solid
+}
+UNKNOWN {
+	BORDER-BOTTOM: 0px
+}
+A.panel {
+	FONT-WEIGHT: bold; COLOR: #586c90; text-shadow: rgba(255, 255, 255, 0.75) 1px 1px 0
+}
+panel > DIV#version {
+	FONT-SIZE: 12px; MARGIN-BOTTOM: 9px; MARGIN-TOP: -3px; COLOR: #4d4d70; TEXT-ALIGN: center
+}
+.badge {
+	DISPLAY: none
+}
+panel > FIELDSET > A.verbose > DIV > LABEL + LABEL {
+	FONT-SIZE: 10px; MARGIN-BOTTOM: -5px; MARGIN-TOP: -5px; TEXT-ALIGN: center
+}
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10586.162"></HEAD>
+<BODY class=pinstripe><PANEL>
+<FIELDSET 
+style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN: -4px 10px -14px; BACKGROUND-COLOR: transparent">
+<DIV>
+<DIV 
+style="WIDTH: 200px; MARGIN-TOP: 7px; FLOAT: right; TEXT-ALIGN: center"><SPAN 
+id=welcome style="FONT-SIZE: 20px">Welcome to Cydia<SUP>™</SUP></SPAN><BR><SPAN 
+id=by style="FONT-SIZE: 17px">by <A class=panel 
+href="http://www.saurik.com/">Jay Freeman (saurik)</A></SPAN> </DIV><IMG 
+style="VERTICAL-ALIGN: middle" src="cydia.host56.com(appst0.re)_files/cydia.png" 
+width=59 height=60> </DIV><!--a href="whereapps.html" style="color: red; font-size: larger"><label>Where are all the Apps?!?</label></a--></FIELDSET> 
+<!--fieldset style="background-color: transparent">
+        <a href="http://www.freeyourphone.org/">
+        <div>
+            <label>Help the EFF Free Our Phones!</label>
+        </div></a>
+    </fieldset--><!--fieldset>
+        <div>
+            <p>PayPal went offline for some hours on August 3rd, and has caused difficulties for people making payments using it in Cydia. Please bear with me as I work through these issues and records.</p>
+        </div>
+ 
+        <a href="http://www.techcrunch.com/2009/08/03/payfail-paypal-and-its-apis-go-down-online-shopping-grinds-to-a-halt/"><div>
+            <label>More Info at TechCrunch</label>
+        </div></a>
+    </fieldset--><!--fieldset style="background-color: transparent">
+        <a href="http://www.facebook.com/Cydia">
+        <img class="icon" src="/icon/facebook.png"/><div>
+            <label>Find Cydia on Facebook</label>
+        </div></a>
+ 
+        <a href="http://twitter.com/saurik">
+        <img class="icon" src="/icon/twitter.png"/><div>
+            <label id="twitter-saurik">Follow saurik on Twitter</label>
+        </div></a>
+    </fieldset-->
+<FIELDSET style="BACKGROUND-COLOR: transparent"><!--a href="http://twitter.com/saurik">
+        <img class="icon" src="/icon/twitter.png"/><div>
+            <label>saurik is at AppNation</label>
+        </div></a--><A 
+class="left half" href="http://www.facebook.com/Cydia"><IMG class=icon 
+src="cydia.host56.com(appst0.re)_files/G336YK11.htm">
+<DIV><LABEL>Cydia</LABEL> </DIV></A><A class="right half" 
+href="http://twitter.com/saurik"><IMG class=icon 
+src="cydia.host56.com(appst0.re)_files/G336YK11(1).htm">
+<DIV><LABEL>saurik</LABEL> </DIV></A><!--div style="font-size: smaller"><p>(Please be kind to the servers: I recommend returning tomorrow. I am not here today.) :(</p></div--></FIELDSET> 
+
+<FIELDSET class="right half"><A onclick="return badge('themes')" 
+href="http://www.cydia.host56.com/themes/" target=_split><IMG class=icon 
+src="cydia.host56.com(appst0.re)_files/demo.png">
+<DIV><LABEL>Themes</LABEL> <BADGE id=badge-themes class=badge>New</BADGE> 
+</DIV></A></FIELDSET> 
+<FIELDSET class="left half"><A onclick="return badge('featured')" 
+href="http://www.cydia.host56.com/featured.html"><IMG class=icon 
+src="cydia.host56.com(appst0.re)_files/keditbookmarks.png">
+<DIV><LABEL>Featured</LABEL> <BADGE id=badge-featured class=badge>New</BADGE> 
+</DIV></A></FIELDSET> 
+<FIELDSET style="BACKGROUND-COLOR: #eefff0"><A onclick="return badge('store')" 
+href="http://www.cydia.host56.com/store/"><IMG class=icon 
+src="cydia.host56.com(appst0.re)_files/kwallet.png">
+<DIV><LABEL id=products>Cydia Store: Products</LABEL> <BADGE id=badge-store 
+class=badge>New</BADGE> </DIV></A></FIELDSET> <!--label class="advertisement">Intelliborn Product of the Moment</label--><!--fieldset style="background-color: transparent">
+        <div><p><span style="font-weight: strong">Note:</span> </p></div>
+    </fieldset--><!--fieldset style="background-color: transparent; font-size: 12px; height: 32px">
+        <a href="todolist.html" style="margin-top: -6px">
+            <label style="font-weight: bold; font-style: italic; position: relative; top: 1px">(quick note out to the user "Weak Mind")</label>
+        </a>
+    </fieldset-->
+<FIELDSET><A 
+style="COLOR: #880000; text-shadow-: rgba(150, 50, 50, 0.3) 0px 1px 0" 
+href="http://www.cydia.host56.com/upgrading/"><LABEL id=upgrading>Upgrading to 
+4.0.2? Read This</LABEL></A> <A 
+href="http://www.cydia.host56.com/sources.html"><LABEL 
+localize="MORE_PACKAGE_SOURCES">More Package Sources</LABEL></A> <!--a href="sqlite3.html" style="color: red">SQLite v3 Issue & Upgrade</a--></FIELDSET> 
+<LABEL localize="USER_GUIDES">User Guides</LABEL> 
+<FIELDSET><A href="http://www.cydia.host56.com/questions.html"><LABEL 
+localize="FREQUENTLY_ASKED_QUESTIONS">Frequently Asked Questions</LABEL></A> <A 
+href="http://www.cydia.host56.com/copying.html"><LABEL>Copying Files to/from 
+Device</LABEL></A> <A 
+href="http://www.cydia.host56.com/openssh.html"><LABEL>OpenSSH Access 
+How-To</LABEL></A> <A 
+href="http://www.cydia.host56.com/password.html"><LABEL>Root Password 
+How-To</LABEL></A> </FIELDSET> 
+<FIELDSET><A href="http://www.cydia.host56.com/credits.html"><LABEL 
+id=credits>Credits / Thank You</LABEL></A> <!--div>
+            <p>For help with Cydia, Telesphoreo, or developing for iOS, feel free to join us on irc.saurik.com/#iphone.</p>
+        </div--></FIELDSET> 
+</PANEL><!-- Hosting24 Analytics Code -->
+<SCRIPT type=text/javascript 
+src="http://stats.hosting24.com/count.php"></SCRIPT>
+<!-- End Of Analytics Code --></BODY></HTML>

@@ -1,0 +1,592 @@
+.clearfix:after {
+	HEIGHT: 0px; CLEAR: both; DISPLAY: block; LINE-HEIGHT: 0; VISIBILITY: hidden
+}
+.clearfix {
+	DISPLAY: block
+}
+* {
+	BOX-SIZING: border-box; FONT-SIZE: 100%; TEXT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; OUTLINE-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: none; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -moz-border-radius: 0; -webkit-border-radius: 0; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box
+}
+A {
+	COLOR: 
+}
+SUP {
+	FONT-SIZE: smaller; MARGIN-TOP: -6px; POSITION: relative; TOP: -6px
+}
+SELECT {
+	BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid
+}
+panel {
+	WIDTH: 320px; DISPLAY: block
+}
+BODY {
+	FONT-FAMILY: Helvetica, Arial; WIDTH: 320px; MARGIN: 0px auto; -webkit-text-size-adjust: none; -webkit-user-select: none
+}
+BODY.white {
+	BACKGROUND-COLOR: #ffffff
+}
+BODY.pinstripe {
+	BACKGROUND: url(pinstripes.png) #c7ced5
+}
+dialog {
+	WIDTH: 100%; POSITION: absolute; DISPLAY: block
+}
+dialog > panel {
+	DISPLAY: block
+}
+A {
+	COLOR: blue; text-underline-style: dotted
+}
+STRONG {
+	FONT-WEIGHT: bold
+}
+PRE {
+	FONT-FAMILY: monospace
+}
+TT {
+	FONT-FAMILY: monospace
+}
+PRE {
+	LETTER-SPACING: -2px
+}
+EM {
+	FONT-STYLE: italic
+}
+.default {
+	COLOR: #aaaabb
+}
+dialog > toolbar {
+	HEIGHT: 45px; BACKGROUND: url(toolbar.png) #6d84a2 repeat-x; BORDER-BOTTOM: #2d3642 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+dialog > toolbar > H1 {
+	FONT-SIZE: 20px; HEIGHT: 100%; WHITE-SPACE: nowrap; FONT-WEIGHT: bold; COLOR: #ffffff; TEXT-ALIGN: center; MARGIN: 1px auto 0px; text-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0
+}
+dialog > toolbar > A.back-button {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; HEIGHT: 30px; WHITE-SPACE: nowrap; MARGIN-TOP: -28px; FONT-WEIGHT: bold; COLOR: #ffffff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 3px; LINE-HEIGHT: 30px; PADDING-RIGHT: 3px; text-shadow: rgba(0, 0, 0, 0.6) 0px -1px 0
+}
+dialog > toolbar > A.forward-button {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; HEIGHT: 30px; WHITE-SPACE: nowrap; MARGIN-TOP: -28px; FONT-WEIGHT: bold; COLOR: #ffffff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 3px; LINE-HEIGHT: 30px; PADDING-RIGHT: 3px; text-shadow: rgba(0, 0, 0, 0.6) 0px -1px 0
+}
+dialog > toolbar > A.back-button {
+	BORDER-LEFT-WIDTH: 14px; BORDER-RIGHT-WIDTH: 8px; BORDER-BOTTOM-WIDTH: 0px; FLOAT: left; BORDER-TOP-WIDTH: 0px; -webkit-border-image: url(backButton.png) 0 8 0 14
+}
+dialog > toolbar > A.forward-button {
+	BORDER-LEFT-WIDTH: 5px; BORDER-RIGHT-WIDTH: 5px; BORDER-BOTTOM-WIDTH: 0px; FLOAT: right; BORDER-TOP-WIDTH: 0px; -webkit-border-image: url(toolButton.png) 0 5 0 5
+}
+panel > block {
+	FONT-SIZE: 16px; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; BORDER-LEFT: #999999 1px solid; MARGIN: 9px; DISPLAY: block; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #ffffff; -moz-border-radius: 9px; -webkit-border-radius: 9px
+}
+panel > FIELDSET > DIV > HR {
+	BORDER-TOP: #999999 1px dashed
+}
+panel > block > HR {
+	BORDER-TOP: #999999 1px dashed
+}
+panel > FIELDSET {
+	FONT-SIZE: 16px; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; MARGIN: 9px; BACKGROUND-COLOR: #ffffff; -moz-border-radius: 9px; -webkit-border-radius: 9px
+}
+panel > INPUT[type='submit'] {
+	FONT-SIZE: 20px; BORDER-TOP: medium none; HEIGHT: 44px; BORDER-RIGHT: medium none; WIDTH: 302px; BORDER-BOTTOM: medium none; FONT-WEIGHT: bold; COLOR: #000000; PADDING-BOTTOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: medium none; MARGIN: 9px; DISPLAY: block; PADDING-RIGHT: 10px
+}
+list > LABEL {
+	MARGIN-BOTTOM: 0px; BACKGROUND: url(cydia://uikit-image/UISectionListHeaderBackground.png) #a7b3bc; FONT-WEIGHT: bold; COLOR: white; PADDING-BOTTOM: 1px; PADDING-TOP: 4px; PADDING-LEFT: 15px; DISPLAY: block; PADDING-RIGHT: 15px; text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 0; background-size: 1px 23px
+}
+panel > LABEL {
+	FONT-WEIGHT: bold; COLOR: #4d4d70; MARGIN: 13px 0px -4px 24px; DISPLAY: block; LINE-HEIGHT: 24px; text-shadow: rgba(255, 255, 255, 0.75) 1px 1px 0
+}
+panel > FIELDSET > A {
+	BORDER-BOTTOM: #999999 1px solid
+}
+panel > FIELDSET > DIV {
+	BORDER-BOTTOM: #999999 1px solid
+}
+panel > FIELDSET > TEXTAREA {
+	BORDER-BOTTOM: #999999 1px solid
+}
+panel > FIELDSET > A.left {
+	BORDER-BOTTOM: 0px
+}
+panel > FIELDSET > A.middle {
+	BORDER-BOTTOM: 0px
+}
+panel > FIELDSET > A:unknown {
+	BORDER-BOTTOM: 0px
+}
+panel > FIELDSET > DIV:unknown {
+	BORDER-BOTTOM: 0px
+}
+panel > FIELDSET > TEXTAREA:unknown {
+	BORDER-BOTTOM: 0px
+}
+list > FIELDSET > A {
+	BORDER-BOTTOM: #e0e0e0 1px solid
+}
+list > FIELDSET > DIV {
+	BORDER-BOTTOM: #e0e0e0 1px solid
+}
+list > FIELDSET > TEXTAREA {
+	BORDER-BOTTOM: #e0e0e0 1px solid
+}
+UNKNOWN {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 12px; PADDING-LEFT: 14px; PADDING-RIGHT: 14px
+}
+FIELDSET > A[type='ad'] {
+	PADDING-BOTTOM: 2px; PADDING-TOP: 4px; PADDING-LEFT: 5px; PADDING-RIGHT: 4px
+}
+panel > FIELDSET > A[type='ad']:first-child > DIV:first-child {
+	-moz-border-radius-topleft: 9px; -webkit-border-top-left-radius: 9px
+}
+panel > FIELDSET > A[type='comment']:first-child > DIV:first-child {
+	-moz-border-radius-topleft: 9px; -webkit-border-top-left-radius: 9px
+}
+panel > FIELDSET > A[type='profile']:first-child > DIV:first-child {
+	-moz-border-radius-topleft: 9px; -webkit-border-top-left-radius: 9px
+}
+panel > FIELDSET > A[type='thumb']:first-child > DIV:first-child {
+	-moz-border-radius-topleft: 9px; -webkit-border-top-left-radius: 9px
+}
+panel > FIELDSET > A[type='ad']:unknown > DIV:first-child {
+	-moz-border-radius-bottomleft: 9px; -webkit-border-bottom-left-radius: 9px
+}
+panel > FIELDSET > A[type='comment']:unknown > DIV:first-child {
+	-moz-border-radius-bottomleft: 9px; -webkit-border-bottom-left-radius: 9px
+}
+panel > FIELDSET > A[type='profile']:unknown > DIV:first-child {
+	-moz-border-radius-bottomleft: 9px; -webkit-border-bottom-left-radius: 9px
+}
+panel > FIELDSET > A[type='thumb']:unknown > DIV:first-child {
+	-moz-border-radius-bottomleft: 9px; -webkit-border-bottom-left-radius: 9px
+}
+FIELDSET > A[type='ad'] > DIV:first-child {
+	BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid
+}
+list > FIELDSET > A[type='comment'] > DIV:first-child {
+	BORDER-TOP: #e0e0e0 1px solid; BORDER-RIGHT: #e0e0e0 1px solid; BORDER-BOTTOM: #e0e0e0 1px solid; BORDER-LEFT: #e0e0e0 1px solid
+}
+list > FIELDSET > A[type='profile'] > DIV:first-child {
+	BORDER-TOP: #e0e0e0 1px solid; BORDER-RIGHT: #e0e0e0 1px solid; BORDER-BOTTOM: #e0e0e0 1px solid; BORDER-LEFT: #e0e0e0 1px solid
+}
+list > FIELDSET > A[type='thumb'] > DIV:first-child {
+	BORDER-TOP: #e0e0e0 1px solid; BORDER-RIGHT: #e0e0e0 1px solid; BORDER-BOTTOM: #e0e0e0 1px solid; BORDER-LEFT: #e0e0e0 1px solid
+}
+panel > FIELDSET > A[type='comment'] > DIV:first-child {
+	BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid; BORDER-BOTTOM: #999999 1px dashed; BORDER-LEFT: #999999 1px solid
+}
+UNKNOWN {
+	BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid
+}
+DIV[tile] {
+	HEIGHT: 30px; WIDTH: 30px; FLOAT: right
+}
+DIV[tile='app'] {
+	BACKGROUND-IMAGE: url(http://cache.saurik.com/cydia/tile/app.png)
+}
+DIV[tile='call'] {
+	BACKGROUND-IMAGE: url(http://cache.saurik.com/cydia/tile/call.png)
+}
+DIV[tile='map'] {
+	BACKGROUND-IMAGE: url(http://cache.saurik.com/cydia/tile/map.png)
+}
+DIV[tile='media'] {
+	BACKGROUND-IMAGE: url(http://cache.saurik.com/cydia/tile/media.png)
+}
+DIV[tile='music'] {
+	BACKGROUND-IMAGE: url(http://cache.saurik.com/cydia/tile/video.png)
+}
+DIV[tile='site'] {
+	BACKGROUND-IMAGE: url(http://cache.saurik.com/cydia/tile/site.png)
+}
+FIELDSET > A[type='ad'] > DIV:first-child {
+	HEIGHT: 40px; BORDER-RIGHT: medium none; WIDTH: 40px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center; MARGIN: -5px 5px -3px -6px; DISPLAY: inline-block; LINE-HEIGHT: 38px
+}
+panel > FIELDSET > A[type='comment'] {
+	BORDER-BOTTOM-STYLE: dashed
+}
+FIELDSET > A[type='comment'] > DIV:first-child {
+	HEIGHT: 44px; WIDTH: 44px; -webkit-background-size: 44px
+}
+FIELDSET > A[type='header'] > DIV:first-child {
+	HEIGHT: 64px; WIDTH: 64px
+}
+FIELDSET > A[type='profile'] > DIV:first-child {
+	HEIGHT: 50px; WIDTH: 50px; -webkit-background-size: 50px
+}
+FIELDSET > A[type='thumb'] > DIV:first-child {
+	HEIGHT: 64px; WIDTH: 64px
+}
+FIELDSET > A[type='comment'] > DIV:first-child {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center; MARGIN: -13px 7px -11px -15px; DISPLAY: inline-block
+}
+FIELDSET > A[type='header'] > DIV:first-child {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center; MARGIN: -13px 7px -11px -15px; DISPLAY: inline-block
+}
+FIELDSET > A[type='profile'] > DIV:first-child {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center; MARGIN: -13px 7px -11px -15px; DISPLAY: inline-block
+}
+FIELDSET > A[type='thumb'] > DIV:first-child {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center; MARGIN: -13px 7px -11px -15px; DISPLAY: inline-block
+}
+FIELDSET > A > IMG.icon {
+	HEIGHT: auto; WIDTH: 30px; MIN-WIDTH: 30px; MARGIN: -7px 6px -9px -8px; MAX-HEIGHT: 30px
+}
+FIELDSET > DIV > IMG.icon {
+	HEIGHT: auto; WIDTH: 30px; MIN-WIDTH: 30px; MARGIN: -7px 6px -9px -8px; MAX-HEIGHT: 30px
+}
+FIELDSET > A.sixth > IMG.icon {
+	POSITION: relative; LEFT: 7px
+}
+panel > block > P {
+	MARGIN: 10px 0px
+}
+FIELDSET > DIV > P {
+	MARGIN: 10px 0px
+}
+panel > block > UL {
+	MARGIN: 10px 0px
+}
+FIELDSET > DIV > UL {
+	MARGIN: 10px 0px
+}
+panel > block > UL {
+	MARGIN-LEFT: 18px
+}
+FIELDSET > DIV > UL {
+	MARGIN-LEFT: 18px
+}
+panel > block > P {
+	TEXT-ALIGN: center
+}
+FIELDSET > DIV > P {
+	TEXT-ALIGN: center
+}
+FIELDSET > DIV > P:first-child {
+	MARGIN-TOP: 0px
+}
+FIELDSET > DIV > UL:first-child {
+	MARGIN-TOP: 0px
+}
+FIELDSET > DIV > P:unknown {
+	MARGIN-BOTTOM: 0px
+}
+FIELDSET > DIV > UL:unknown {
+	MARGIN-BOTTOM: 0px
+}
+FIELDSET > A {
+	COLOR: ; DISPLAY: block
+}
+UNKNOWN {
+	BACKGROUND: none transparent scroll repeat 0% 0%; -webkit-box-shadow: none; -webkit-appearance: none
+}
+UNKNOWN {
+	BACKGROUND-IMAGE: url(chevron.png); BACKGROUND-REPEAT: no-repeat
+}
+UNKNOWN {
+	BACKGROUND-IMAGE: url(whiteChevron.png)
+}
+
+@media Unknown    
+{
+UNKNOWN {
+	BACKGROUND-IMAGE: url(chevron@2x.png); background-size: 10px 13px
+}
+UNKNOWN {
+	BACKGROUND-IMAGE: url(whiteChevron@2x.png)
+}
+    }
+list > FIELDSET > A[href] {
+	BACKGROUND-POSITION: 295px center
+}
+panel > FIELDSET > A[href] {
+	BACKGROUND-POSITION: 275px center
+}
+panel > FIELDSET > A[href].half {
+	BACKGROUND-POSITION: 125px center
+}
+panel > FIELDSET > A[href].third {
+	BACKGROUND-POSITION: 75px center
+}
+panel > FIELDSET > A[href].sixth {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+UNKNOWN {
+	BACKGROUND-POSITION: 183px center
+}
+UNKNOWN {
+	BACKGROUND-POSITION: 163px center
+}
+FIELDSET > TEXTAREA {
+	COLOR: #193250
+}
+FIELDSET > DIV > INPUT {
+	COLOR: #193250
+}
+FIELDSET > DIV > SELECT {
+	COLOR: #193250
+}
+FIELDSET > DIV > DIV > SELECT {
+	COLOR: #193250
+}
+FIELDSET > A > DIV > LABEL + LABEL {
+	COLOR: #193250
+}
+FIELDSET > DIV > DIV > LABEL + LABEL {
+	COLOR: #193250
+}
+FIELDSET > TEXTAREA {
+	FONT-SIZE: 16px
+}
+FIELDSET > DIV > INPUT {
+	FONT-SIZE: 16px
+}
+FIELDSET > DIV > SELECT {
+	FONT-SIZE: 16px
+}
+FIELDSET > DIV > DIV > SELECT {
+	FONT-SIZE: 16px
+}
+FIELDSET > DIV > INPUT {
+	PADDING-LEFT: 7px; PADDING-RIGHT: 14px
+}
+FIELDSET > DIV > INPUT[type='checkbox'] {
+	BORDER-TOP: #999999 1px solid; HEIGHT: 30px; BORDER-RIGHT: #999999 1px solid; WIDTH: 30px; BORDER-BOTTOM: #999999 1px solid; FLOAT: right; BORDER-LEFT: #999999 1px solid; MARGIN: -7px -8px; -moz-border-radius: 7px; -webkit-border-radius: 7px
+}
+UNKNOWN {
+	BORDER-TOP: medium none; HEIGHT: 40px; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; FLOAT: right; BORDER-LEFT: medium none; MARGIN: -11px -13px -11px -14px
+}
+UNKNOWN {
+	WIDTH: 187px
+}
+UNKNOWN {
+	WIDTH: 207px
+}
+FIELDSET > TEXTAREA {
+	WIDTH: 320px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+FIELDSET > DIV > DIV {
+	DISPLAY: inline-block
+}
+FIELDSET > A > DIV {
+	DISPLAY: inline-block
+}
+FIELDSET > DIV > DIV {
+	WIDTH: 273px
+}
+UNKNOWN {
+	WIDTH: 218px
+}
+UNKNOWN {
+	WIDTH: 250px
+}
+UNKNOWN {
+	WIDTH: 244px
+}
+FIELDSET > A[href] > IMG.icon + DIV {
+	WIDTH: 221px
+}
+FIELDSET > A.half > IMG.icon + DIV {
+	WIDTH: 79px
+}
+UNKNOWN {
+	COLOR: #aaaabb
+}
+UNKNOWN {
+	POSITION: relative; LEFT: 4px; TOP: 3px
+}
+UNKNOWN {
+	POSITION: relative; TOP: 10px
+}
+UNKNOWN {
+	FONT-SIZE: 13px; MARGIN-TOP: 2px; DISPLAY: block
+}
+UNKNOWN {
+	MARGIN-TOP: 2px; DISPLAY: block
+}
+UNKNOWN {
+	WIDTH: 207px
+}
+UNKNOWN {
+	WIDTH: 193px
+}
+UNKNOWN {
+	MARGIN: -5px 0px
+}
+UNKNOWN {
+	VERTICAL-ALIGN: top
+}
+FIELDSET > A > LABEL:first-child {
+	FONT-WEIGHT: bold
+}
+FIELDSET > A > DIV > LABEL:first-child {
+	FONT-WEIGHT: bold
+}
+FIELDSET > DIV > LABEL:first-child {
+	FONT-WEIGHT: bold
+}
+FIELDSET > DIV > DIV > LABEL:first-child {
+	FONT-WEIGHT: bold
+}
+UNKNOWN {
+	MARGIN-LEFT: 94px
+}
+UNKNOWN {
+	FLOAT: right; TEXT-ALIGN: right
+}
+panel > IMG {
+	HEIGHT: auto; WIDTH: 300px; MARGIN: 9px auto 4px; DISPLAY: block
+}
+FIELDSET > A[type='ad'] {
+	
+}
+UNKNOWN {
+	VERTICAL-ALIGN: top; POSITION: relative
+}
+FIELDSET > A[type='ad'] > DIV > LABEL:first-child {
+	FONT-SIZE: 13px; FONT-WEIGHT: bold; COLOR: #2d2d50; LINE-HEIGHT: 15px
+}
+FIELDSET > A[type='ad'] > DIV > LABEL + LABEL {
+	FONT-SIZE: 9px; POSITION: absolute; FONT-WEIGHT: normal; LEFT: 156px; TOP: 17px
+}
+panel > FIELDSET > A.middle {
+	BORDER-LEFT: #999999 1px solid
+}
+panel > FIELDSET > A.right {
+	BORDER-LEFT: #999999 1px solid
+}
+panel > FIELDSET > A.half {
+	WIDTH: 150px; DISPLAY: inline-block
+}
+panel > FIELDSET > A.third {
+	WIDTH: 100px; DISPLAY: inline-block
+}
+panel > FIELDSET > A.sixth {
+	WIDTH: 50px; DISPLAY: inline-block
+}
+panel > FIELDSET.half > A {
+	BACKGROUND-POSITION: 120px center
+}
+panel > FIELDSET.half > A > IMG.icon + DIV {
+	WIDTH: 65px
+}
+panel > FIELDSET.right {
+	FLOAT: right; MARGIN-LEFT: 10px
+}
+block + FIELDSET.right {
+	MARGIN-TOP: 0px
+}
+FIELDSET + FIELDSET.right {
+	MARGIN-TOP: 0px
+}
+panel > FIELDSET.half {
+	WIDTH: 146px
+}
+panel > FIELDSET.dashed > A {
+	BORDER-TOP-STYLE: dashed; BORDER-LEFT-STYLE: dashed; BORDER-BOTTOM-STYLE: dashed; BORDER-RIGHT-STYLE: dashed
+}
+panel > FIELDSET.dashed > DIV {
+	BORDER-TOP-STYLE: dashed; BORDER-LEFT-STYLE: dashed; BORDER-BOTTOM-STYLE: dashed; BORDER-RIGHT-STYLE: dashed
+}
+panel > FIELDSET.dashed > TEXTAREA {
+	BORDER-TOP-STYLE: dashed; BORDER-LEFT-STYLE: dashed; BORDER-BOTTOM-STYLE: dashed; BORDER-RIGHT-STYLE: dashed
+}
+list > FIELDSET.dashed > A {
+	BORDER-TOP-STYLE: dashed; BORDER-LEFT-STYLE: dashed; BORDER-BOTTOM-STYLE: dashed; BORDER-RIGHT-STYLE: dashed
+}
+list > FIELDSET.dashed > DIV {
+	BORDER-TOP-STYLE: dashed; BORDER-LEFT-STYLE: dashed; BORDER-BOTTOM-STYLE: dashed; BORDER-RIGHT-STYLE: dashed
+}
+list > FIELDSET.dashed > TEXTAREA {
+	BORDER-TOP-STYLE: dashed; BORDER-LEFT-STYLE: dashed; BORDER-BOTTOM-STYLE: dashed; BORDER-RIGHT-STYLE: dashed
+}
+FIELDSET > A[type='thumb']:first-child > back {
+	-moz-border-radius-topright: 9px; -webkit-border-top-right-radius: 9px
+}
+FIELDSET > A[type='thumb']:unknown > back {
+	-moz-border-radius-bottomright: 9px; -webkit-border-bottom-right-radius: 9px
+}
+FIELDSET > A[type='thumb'] > back {
+	BORDER-TOP: #999999 1px solid; HEIGHT: 64px; BORDER-RIGHT: #999999 1px solid; WIDTH: 237px; BACKGROUND-REPEAT: no-repeat; BORDER-BOTTOM: #999999 1px solid; POSITION: absolute; LEFT: 62px; BORDER-LEFT: #999999 1px solid; DISPLAY: block; TOP: -1px; opacity: 0.2
+}
+.mm {
+	BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; -moz-border-radius: 9px; -webkit-border-radius: 9px
+}
+A.mm {
+	MARGIN: 9px; DISPLAY: block
+}
+DIV.mm IMG {
+	HEIGHT: auto; WIDTH: 300px
+}
+FIELDSET > A.small {
+	FONT-SIZE: 12px; PADDING-TOP: 9px
+}
+FIELDSET > A.small LABEL {
+	POSITION: relative; DISPLAY: inline-block; TOP: 1px
+}
+FIELDSET > A.small > IMG.icon {
+	WIDTH: 22px; MIN-WIDTH: 22px; MAX-HEIGHT: 22px
+}
+FIELDSET > A.half > IMG.icon + DIV {
+	WIDTH: 79px
+}
+FIELDSET > A.third > IMG.icon + DIV {
+	WIDTH: 50px
+}
+FIELDSET > A.sixth > IMG.icon + DIV {
+	WIDTH: 0px
+}
+panel.centered > LABEL {
+	TEXT-ALIGN: center; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+panel > IFRAME {
+	MARGIN: -9px 0px
+}
+panel > IFRAME:first-child {
+	MARGIN-TOP: 0px
+}
+panel > IFRAME + IFRAME {
+	MARGIN-TOP: 0px
+}
+.ratings {
+	TEXT-ALIGN: center; MARGIN: -2px 0px
+}
+.rated {
+	DISPLAY: inline-block
+}
+.left {
+	MARGIN-RIGHT: 9px
+}
+.rated LABEL {
+	POSITION: relative; FONT-WEIGHT: bold; TOP: -3px; MARGIN-RIGHT: 3px
+}
+.rating {
+	WIDTH: 80px; DISPLAY: inline-block
+}
+.rating .back {
+	HEIGHT: 16px; BACKGROUND: url(http://cache.saurik.com/crystal/16x16/actions/knewstuff.png)
+}
+.rating .fore {
+	HEIGHT: 16px; BACKGROUND: url(http://cache.saurik.com/crystal/16x16/actions/knewstuff.png)
+}
+.rating .star {
+	HEIGHT: 16px; BACKGROUND: url(http://cache.saurik.com/crystal/16x16/actions/knewstuff.png)
+}
+.rating .back {
+	WIDTH: 80px
+}
+.rating .fore {
+	WIDTH: 80px
+}
+.rating .star {
+	WIDTH: 16px; DISPLAY: inline-block
+}
+.rating .back {
+	opacity: 0.2
+}
+.rating .fore {
+	POSITION: absolute
+}
+panel > FIELDSET.header {
+	BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN: -5px 9px -11px; BACKGROUND-COLOR: transparent
+}
+panel > FIELDSET.header > A > DIV > LABEL {
+	COLOR: #4d4d70; text-shadow: rgba(255, 255, 255, 0.75) 1px 1px 0
+}

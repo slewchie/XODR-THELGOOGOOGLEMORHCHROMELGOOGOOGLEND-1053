@@ -1,0 +1,110 @@
+From: "Saved by Internet Explorer 11"
+Subject: =?Windows-1252?Q?This_page_can=92t_be_displayed?=
+Date: Wed, 30 Mar 2016 03:29:31 -0700
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01D18A34.5FD01560"
+X-MimeOLE: Produced By Microsoft MimeOLE V10.0.10011.16384
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D18A34.5FD01560
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: res://ieframe.dll/dnserror.htm
+
+=EF=BB=BF<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD><META content=3D"IE=3D11.0000"=20
+http-equiv=3D"X-UA-Compatible">
+         <LINK href=3D"res://ieframe.dll/NewErrorPageTemplate.css" =
+rel=3D"stylesheet"=20
+type=3D"text/css">        =20
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3DUTF-8">        =20
+<TITLE>This page can=E2=80=99t be displayed</TITLE>        =20
+<SCRIPT language=3D"javascript" src=3D"errorPageStrings.js" =
+type=3D"text/javascript"></SCRIPT>
+        =20
+<SCRIPT language=3D"javascript" src=3D"httpErrorPagesScripts.js" =
+type=3D"text/javascript"></SCRIPT>
+    =20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.10586.162"></HEAD>    =20
+<BODY onload=3D"javascript:getInfo();">
+<DIV class=3D"mainContent" id=3D"contentContainer">
+<DIV class=3D"title" id=3D"mainTitle">This page can=E2=80=99t be =
+displayed</DIV>
+<DIV class=3D"taskSection" id=3D"taskSection">
+<UL class=3D"tasks" id=3D"cantDisplayTasks">
+  <LI id=3D"task1-1">Make sure the web address <SPAN =
+class=3D"webpageURL" id=3D"webpage"></SPAN>is=20
+  correct.</LI>
+  <LI id=3D"task1-2">Look for the page with your search engine.</LI>
+  <LI id=3D"task1-3">Refresh the page in a few minutes.</LI></UL>
+<UL class=3D"tasks" id=3D"notConnectedTasks" style=3D"display: none;">
+  <LI id=3D"task2-1">Check that all network cables are plugged in.</LI>
+  <LI id=3D"task2-2">Verify that airplane mode is turned off.</LI>
+  <LI id=3D"task2-3">Make sure your wireless switch is turned on.</LI>
+  <LI id=3D"task2-4">See if you can connect to mobile broadband.</LI>
+  <LI id=3D"task2-5">Restart your router.</LI></UL></DIV>
+<DIV><BUTTON class=3D"diagnoseButton" id=3D"diagnose" =
+onclick=3D"javascript:diagnoseConnectionAndRefresh(); return false;">Fix =
+
+connection problems</BUTTON></DIV></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01D18A34.5FD01560
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: res://ieframe.dll/NewErrorPageTemplate.css
+
+body {
+	margin: 0em; color: rgb(87, 87, 87); font-family: "Segoe UI", =
+"verdana", "arial"; background-repeat: repeat-x; background-color: =
+white;
+}
+.mainContent {
+	width: 700px; margin-top: 80px; margin-right: 120px; margin-left: =
+120px;
+}
+.title {
+	color: rgb(39, 120, 236); font-family: "Segoe UI", "verdana"; =
+font-size: 38pt; font-weight: 300; margin-bottom: 20px; vertical-align: =
+bottom; position: relative;
+}
+.errorExplanation {
+	color: rgb(0, 0, 0); font-family: "Segoe UI", "verdana", "arial"; =
+font-size: 12pt; text-decoration: none;
+}
+.taskSection {
+	margin-top: 20px; margin-bottom: 40px; position: relative;
+}
+.tasks {
+	color: rgb(0, 0, 0); padding-top: 5px; font-family: "Segoe UI", =
+"verdana"; font-size: 12pt; font-weight: 200;
+}
+li {
+	margin-top: 8px;
+}
+.diagnoseButton {
+	font-size: 9pt;
+}
+.launchInternetOptionsButton {
+	font-size: 9pt;
+}
+.webpageURL {
+	direction: ltr;
+}
+.hidden {
+	display: none;
+}
+a {
+	color: rgb(0, 102, 204); font-family: "Segoe UI", "verdana", "arial"; =
+font-size: 11pt; text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+------=_NextPart_000_0000_01D18A34.5FD01560--
